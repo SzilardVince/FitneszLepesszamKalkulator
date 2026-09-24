@@ -13,3 +13,7 @@ for (int i = 0; i <= 4; i++)
     osz += szaml[i];
 }
 double atlag = osz / 5.0;
+string telj = "";
+if (atlag >= 10000) telj = "Kiváló forma, teljesítetted a célt!";
+else if (atlag >= 7000) telj = "Átlagos aktivitás, jó úton jársz.";
+else telj = "Kevés mozgás, több aktivitás szükséges!";
